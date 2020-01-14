@@ -29,13 +29,12 @@ namespace observer
 
     interface IRestaurant
     {
-        void Update(Veggies veggies);
+        void Update(Veggies veggie);
     }
 
     class Restaurant : IRestaurant
     {
         private string _name;
-        private Veggies _veggie;
         private double _purchaseThreshold;
 
         public Restaurant(string name, double purchaseThreshold)
