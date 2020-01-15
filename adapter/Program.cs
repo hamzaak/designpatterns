@@ -1,4 +1,6 @@
 ﻿/*
+    ### ADAPTER ###
+    ---------------------------------------------------------------------------------------------------
     Adapter pattern acts as a bridge between two incompatible interfaces. 
     This pattern involves a single class called adapter 
     which is responsible for communication between two independent or incompatible interfaces.

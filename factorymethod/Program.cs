@@ -1,13 +1,15 @@
-﻿using System;
+﻿/*
+    ### FACTORY METHOD ###
+    -----------------------------------------------------------------------------------------------------------------------
+    Factory Method is a Design Pattern which defines an interface for creating an object, 
+    but lets the classes that implement the interface decide which class to instantiate. 
+    Factory Pattern lets a class postpone instantiation to sub-classes.
 
-/*
-Factory Method is a Design Pattern which defines an interface for creating an object, 
-but lets the classes that implement the interface decide which class to instantiate. 
-Factory Pattern lets a class postpone instantiation to sub-classes.
-
-The factory pattern is used to replace class constructors, 
-abstracting the process of object generation so that the type of the object instantiated can be determined at run-time.
+    The factory pattern is used to replace class constructors, 
+    abstracting the process of object generation so that the type of the object instantiated can be determined at run-time.
 */
+
+using System;
 
 namespace factorymethod
 {

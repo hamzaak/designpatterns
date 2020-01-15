@@ -1,4 +1,6 @@
 ﻿/*
+    ### SINGLETON ###
+    ---------------------------------------------------------------------------------------------------
     Sometimes we need to have only one instance of our class 
     for example a single DB connection shared by multiple objects as creating 
     a separate DB connection for every object may be costly. 
