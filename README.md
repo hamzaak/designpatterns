@@ -9,7 +9,7 @@ This repo implements design patterns in .NET Core with real world applications.
 These patterns deal with the process of objects creation in such a way that they can be decoupled from their implementing system. This provides more flexibility in deciding which objects need to be created for a given use case/ scenario. There are as follows:
 1. **Factory Method:** Create instances of derived classes
 2. **Abstract Factory:** Create instances of several classes belonging to different families
-3. [a relative link](builder/README.md)**Builder:** Separates an object construction from its representation
+3. **[Builder:](builder/README.md)** Separates an object construction from its representation
 4. **Prototype:** Create a duplicate object or clone of the object
 5. **Singleton:** Ensures that a class can has only one instance
 
