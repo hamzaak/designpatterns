@@ -56,7 +56,6 @@ namespace chainofresponsibility
     abstract class Approver
     {
         public Approver Successor { get; set; }
-
         public EventHandler<LoanEventArgs> Loan;
         public abstract void LoanHandler(object sender, LoanEventArgs e);
 
@@ -64,12 +63,10 @@ namespace chainofresponsibility
         {
             Loan += LoanHandler;
         }
-
         public void ProcessRequest(Loan loan)
         {
             OnLoan(new LoanEventArgs { Loan = loan });
         }
-
         public virtual void OnLoan(LoanEventArgs e)
         {
             if (Loan != null)
@@ -77,7 +74,6 @@ namespace chainofresponsibility
                 Loan(this, e);
             }
         }
-
     }
 
     class Clerk : Approver

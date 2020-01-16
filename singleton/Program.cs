@@ -18,7 +18,7 @@ namespace singleton
     {
         static void Main(string[] args)
         {
-            var singleton = Singleton.getInstance();
+            var singleton = Singleton.Instance;
 
             Console.WriteLine("Hello World!");
         }
