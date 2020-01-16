@@ -4,7 +4,8 @@ Creating an object often requires complex processes not appropriate to include w
 
 The factory method pattern relies on inheritance, as object creation is delegated to subclasses that implement the factory method to create objects.
 
-> "Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses." (Gang Of Four)
+> Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses.
+> ~ **Gang Of Four**
 
 ## Problem
 Creating an object directly within the class that requires or uses the object is inflexible because it commits the class to a particular object and makes it impossible to change the instantiation independently of the class. A change to the instantiator would require a change to the class code which we would rather not touch. This is referred to as code coupling and the Factory method pattern assists in decoupling the code.

@@ -10,7 +10,7 @@ These patterns deal with the process of objects creation in such a way that they
 1. **[Factory Method](factorymethod/):** Create instances of derived classes
 2. **Abstract Factory:** Create instances of several classes belonging to different families
 3. **[Builder](builder/):** Separates an object construction from its representation
-4. **Prototype:** Create a duplicate object or clone of the object
+4. **[Prototype](prototype/):** Create a duplicate object or clone of the object
 5. **Singleton:** Ensures that a class can has only one instance
 
 ## 2. Structural Design Patterns
