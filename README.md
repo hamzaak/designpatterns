@@ -1,3 +1,4 @@
+![Image of Design Patterns](https://github.com/hamzaak/designpatterns/blob/master/assets/peacock.jpg)
 # Design Patterns (GoF)
 The four authors Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides are collectively introduced Gang of Four Design Patterns in Software development. In 1994, they published a book (Design Patterns: Elements of Reusable Object-Oriented Software) for explaining the concept of Design Patterns
 
