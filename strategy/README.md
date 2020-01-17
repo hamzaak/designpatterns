@@ -18,4 +18,4 @@ Strategy Pattern prevents hard-wiring of all the algorithms into the program. Th
 3. **NormalStrategy and HappyHourStrategy** - These are classes that implement the IBillingStrategy interface.
 
 ## References
-1. [Wikipedia - Composite pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
+1. [Wikipedia - Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
