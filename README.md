@@ -18,7 +18,7 @@ These patterns deal with the process of objects creation in such a way that they
 These patterns deal with the composition of objects structures. The concept of inheritance is used to compose interfaces and define various ways to compose objects for obtaining new functionalities. There are as follows:
 1. **[Adapter](adapter/):** Match interfaces of different classes :heavy_check_mark:
 2. **[Bridge](bridge/):** Separates an object’s abstraction from its implementation :heavy_check_mark:
-3. **Composite:** A tree structure of simple and composite objects :soon:
+3. **[Composite](composite/):** A tree structure of simple and composite objects :soon:
 4. **Decorator:** Add responsibilities to objects dynamically
 5. **Facade:** A single class that represents an entire complex system :heavy_check_mark:
 6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects
