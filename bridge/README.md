@@ -5,11 +5,11 @@ This pattern involves an interface which acts as a bridge between the abstractio
 > Decouple an abstraction from its implementation so that the two can vary independently.
 > ~ **Gang Of Four**
 
-This pattern looks like **[Adapter](./adapter/):** design pattern. The difference between them according to GoF is: 
+This pattern looks like **[Adapter](../adapter/):** design pattern. The difference between them according to GoF is: 
 > Adapter makes things work after they're designed; Bridge makes them work before they are.
 > ~ **Gang Of Four (p219)**
 
-Effectively, the **[Adapter](./adapter/):** design pattern is useful when you have existing code, be it third party, or in-house, but out of your control, or otherwise not changeable to quite meet the interface you need it to.
+Effectively, the **[Adapter](../adapter/):** design pattern is useful when you have existing code, be it third party, or in-house, but out of your control, or otherwise not changeable to quite meet the interface you need it to.
 
 ## Problem
 * An abstraction and its implementation should be defined and extended independently from each other.
