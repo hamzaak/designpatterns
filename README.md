@@ -17,8 +17,8 @@ These patterns deal with the process of objects creation in such a way that they
 ## 2. Structural Design Patterns
 These patterns deal with the composition of objects structures. The concept of inheritance is used to compose interfaces and define various ways to compose objects for obtaining new functionalities. There are as follows:
 1. **[Adapter](adapter/):** Match interfaces of different classes :heavy_check_mark:
-2. **[Bridge](bridge/):** Separates an object’s abstraction from its implementation :heavy_check_mark:
-3. **[Composite](composite/):** A tree structure of simple and composite objects :soon:
+2. **[Bridge](bridge/):** Separates an object’s abstraction from its implementation 
+3. **[Composite](composite/):** A tree structure of simple and composite objects :heavy_check_mark:
 4. **Decorator:** Add responsibilities to objects dynamically
 5. **Facade:** A single class that represents an entire complex system :heavy_check_mark:
 6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects
@@ -34,7 +34,7 @@ These patterns deal with the process of communication, managing relationships, a
 6. **Memento:** Capture the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.
 7. **Observer:** Allows an object (subject) to publish changes to its state and other objects (observer) that depend upon that object are automatically notified of any changes to the subject's state. :heavy_check_mark:
 8. **State:** Alters the behavior of an object when it’s internal state changes.
-9. **Strategy:** Allows a client to choose an algorithm from a family of algorithms at run-time and gives it a simple way to access it.
+9. **Strategy:** Allows a client to choose an algorithm from a family of algorithms at run-time and gives it a simple way to access it. :soon:
 10. **Visitor:** Creates and performs new operations onto a set of objects without changing the object structure or classes.
 11. **Template Method:** Defines the basic steps of an algorithm and allow the implementation of the individual steps to be changed.
 
