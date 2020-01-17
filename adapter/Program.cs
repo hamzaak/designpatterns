@@ -1,12 +1,4 @@
-﻿/*
-    ### ADAPTER ###
-    ---------------------------------------------------------------------------------------------------
-    Adapter pattern acts as a bridge between two incompatible interfaces. 
-    This pattern involves a single class called adapter 
-    which is responsible for communication between two independent or incompatible interfaces.
-*/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace adapter
@@ -23,9 +15,6 @@ namespace adapter
         }
     }
 
-    /// <summary>
-    /// The 'Client' class
-    /// </summary>
     public class ThirdPartyBillingSystem
     {
         private ITarget employeeSource;
@@ -47,18 +36,12 @@ namespace adapter
             }
         }
     }
-
-    /// <summary>
-    /// The 'ITarget' interface
-    /// </summary>
+    
     public interface ITarget
     {
         List<string> GetEmployeeList();
     }
 
-    /// <summary>
-    /// The 'Adaptee' class
-    /// </summary>
     public class HRSystem
     {
         public string[][] GetEmployees()
@@ -74,9 +57,6 @@ namespace adapter
         }
     }
 
-    /// <summary>
-    /// The 'Adapter' class
-    /// </summary>
     public class EmployeeAdapter : HRSystem, ITarget
     {
         public List<string> GetEmployeeList()
