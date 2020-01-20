@@ -22,7 +22,7 @@ These patterns deal with the composition of objects structures. The concept of i
 4. **Decorator:** Add responsibilities to objects dynamically
 5. **[Facade](facade/):** A single class that represents an entire complex system :heavy_check_mark:
 6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects
-7. **Proxy:** Provides a surrogate object, which references to other object :soon:
+7. **[Proxy](proxy/):** Provides a surrogate object, which references to other object :soon:
 
 ## 3. Behavioral Design Patterns
 These patterns deal with the process of communication, managing relationships, and responsibilities between objects. There are as follows:
