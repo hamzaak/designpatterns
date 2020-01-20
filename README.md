@@ -19,9 +19,9 @@ These patterns deal with the composition of objects structures. The concept of i
 1. **[Adapter](adapter/):** Match interfaces of different classes :heavy_check_mark:
 2. **[Bridge](bridge/):** Separates an object’s abstraction from its implementation 
 3. **[Composite](composite/):** A tree structure of simple and composite objects :heavy_check_mark:
-4. **Decorator:** Add responsibilities to objects dynamically :soon:
+4. **[Decorator](decorator/):** Add responsibilities to objects dynamically :heavy_check_mark:
 5. **[Facade](facade/):** A single class that represents an entire complex system :heavy_check_mark:
-6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects
+6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects :soon:
 7. **[Proxy](proxy/):** Provides a surrogate object, which references to other object :heavy_check_mark:
 
 ## 3. Behavioral Design Patterns

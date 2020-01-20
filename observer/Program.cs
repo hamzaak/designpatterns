@@ -1,9 +1,4 @@
-﻿/*
-    ### OBSERVER ###
-    ---------------------------------------------------------------------------------------------------
-    The Observer pattern seeks to allow objects to notify their observers when their internal state changes.
-*/
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace observer

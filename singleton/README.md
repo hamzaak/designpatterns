@@ -17,9 +17,5 @@ The key idea in this pattern is to make the class itself responsible for control
 The hidden constructor (declared private) ensures that the class can never be instantiated from outside the class.
 The public static operation can be accessed easily by using the class name and operation name (Singleton.getInstance()).
 
-## Tutorial
-1. **Document** - Abstract Class.
-2. **HTMLDocument and XMLDocument** - Concrete Classes.
-
 ## References
 1. [Wikipedia - Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
