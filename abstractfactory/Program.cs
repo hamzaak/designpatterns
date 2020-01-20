@@ -1,12 +1,4 @@
-﻿/*
-    ### SUPER FACTORY ###
-    ---------------------------------------------------------------------------------------------------
-    Abstract Factory patterns act a super-factory which creates other factories. 
-    This pattern is also called a Factory of factories. 
-    In Abstract Factory pattern an interface is responsible for creating a set of related objects, 
-    or dependent objects without specifying their concrete classes.
-*/
-using System;
+﻿using System;
 
 namespace abstractfactory
 {

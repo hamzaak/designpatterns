@@ -19,7 +19,7 @@ These patterns deal with the composition of objects structures. The concept of i
 1. **[Adapter](adapter/):** Match interfaces of different classes :heavy_check_mark:
 2. **[Bridge](bridge/):** Separates an object’s abstraction from its implementation 
 3. **[Composite](composite/):** A tree structure of simple and composite objects :heavy_check_mark:
-4. **Decorator:** Add responsibilities to objects dynamically
+4. **Decorator:** Add responsibilities to objects dynamically :soon:
 5. **[Facade](facade/):** A single class that represents an entire complex system :heavy_check_mark:
 6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects
 7. **[Proxy](proxy/):** Provides a surrogate object, which references to other object :heavy_check_mark:
@@ -30,7 +30,7 @@ These patterns deal with the process of communication, managing relationships, a
 2. **Command:** Wraps a request under an object as a command and passed to invoker object.
 3. **Interpreter:** Implements an expression interface to interpret a particular context.
 4. **[Iterator](iterator/):** Provides a way to access the elements of a collection object in sequential manner without knowing its underlying structure. :heavy_check_mark:
-5. **Mediator:** Allows multiple objects to communicate with each other’s without knowing each other’s structure. :soon:
+5. **[Mediator](mediator/):** Allows multiple objects to communicate with each other’s without knowing each other’s structure. :heavy_check_mark:
 6. **Memento:** Capture the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.
 7. **[Observer](observer/):** Allows an object (subject) to publish changes to its state and other objects (observer) that depend upon that object are automatically notified of any changes to the subject's state. :heavy_check_mark:
 8. **State:** Alters the behavior of an object when it’s internal state changes.
