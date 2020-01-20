@@ -1,12 +1,4 @@
-﻿/*
-    > The chain of responsibility pattern is used to process a list or chain of various types of request 
-      and each of them may be handled by a different handler. 
-    > This pattern decouples sender and receiver of a request based on the type of request.
-    > In this pattern, normally each receiver (handler) contains a reference to another receiver. 
-      If one receiver cannot handle the request then it passes the same to the next receiver and so on.
-*/
-
-using System;
+﻿using System;
 
 namespace chainofresponsibility
 {

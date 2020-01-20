@@ -29,8 +29,8 @@ These patterns deal with the process of communication, managing relationships, a
 1. **[Chain of Responsibility](chainofresponsibility/):** Passes a request among a list or chain of objects. :heavy_check_mark:
 2. **Command:** Wraps a request under an object as a command and passed to invoker object.
 3. **Interpreter:** Implements an expression interface to interpret a particular context.
-4. **Iterator:** Provides a way to access the elements of a collection object in sequential manner without knowing its underlying structure. :soon:
-5. **Mediator:** Allows multiple objects to communicate with each other’s without knowing each other’s structure.
+4. **[Iterator](iterator/):** Provides a way to access the elements of a collection object in sequential manner without knowing its underlying structure. :heavy_check_mark:
+5. **Mediator:** Allows multiple objects to communicate with each other’s without knowing each other’s structure. :soon:
 6. **Memento:** Capture the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.
 7. **[Observer](observer/):** Allows an object (subject) to publish changes to its state and other objects (observer) that depend upon that object are automatically notified of any changes to the subject's state. :heavy_check_mark:
 8. **State:** Alters the behavior of an object when it’s internal state changes.
