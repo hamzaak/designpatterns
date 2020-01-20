@@ -22,7 +22,7 @@ These patterns deal with the composition of objects structures. The concept of i
 4. **Decorator:** Add responsibilities to objects dynamically
 5. **[Facade](facade/):** A single class that represents an entire complex system :heavy_check_mark:
 6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects
-7. **[Proxy](proxy/):** Provides a surrogate object, which references to other object :soon:
+7. **[Proxy](proxy/):** Provides a surrogate object, which references to other object :heavy_check_mark:
 
 ## 3. Behavioral Design Patterns
 These patterns deal with the process of communication, managing relationships, and responsibilities between objects. There are as follows:
@@ -35,8 +35,8 @@ These patterns deal with the process of communication, managing relationships, a
 7. **[Observer](observer/):** Allows an object (subject) to publish changes to its state and other objects (observer) that depend upon that object are automatically notified of any changes to the subject's state. :heavy_check_mark:
 8. **State:** Alters the behavior of an object when it’s internal state changes.
 9. **[Strategy](strategy/):** Allows a client to choose an algorithm from a family of algorithms at run-time and gives it a simple way to access it. :heavy_check_mark:
-10. **Visitor:** Creates and performs new operations onto a set of objects without changing the object structure or classes.
-11. **Template Method:** Defines the basic steps of an algorithm and allow the implementation of the individual steps to be changed.
+10. **Visitor:** Creates and performs new operations onto a set of objects without changing the object structure or classes. :soon:
+11. **[Template Method](templatemethod/):** Defines the basic steps of an algorithm and allow the implementation of the individual steps to be changed. :heavy_check_mark:
 
 License
 ----
