@@ -27,11 +27,11 @@ These patterns deal with the composition of objects structures. The concept of i
 ## 3. Behavioral Design Patterns
 These patterns deal with the process of communication, managing relationships, and responsibilities between objects. There are as follows:
 1. **[Chain of Responsibility](chainofresponsibility/):** Passes a request among a list or chain of objects. :heavy_check_mark:
-2. **[Command](command/):** Wraps a request under an object as a command and passed to invoker object. :heavy_check_mark:
-3. **Interpreter:** Implements an expression interface to interpret a particular context. :soon:
+2. **[Command](command/):** Wraps a request under an object as a command and passed to invoker object. 
+3. **[Interpreter](interpreter/):** Implements an expression interface to interpret a particular context. :heavy_check_mark:
 4. **[Iterator](iterator/):** Provides a way to access the elements of a collection object in sequential manner without knowing its underlying structure. :heavy_check_mark:
 5. **[Mediator](mediator/):** Allows multiple objects to communicate with each other’s without knowing each other’s structure. :heavy_check_mark:
-6. **Memento:** Capture the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.
+6. **Memento:** Capture the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation. :soon:
 7. **[Observer](observer/):** Allows an object (subject) to publish changes to its state and other objects (observer) that depend upon that object are automatically notified of any changes to the subject's state. :heavy_check_mark:
 8. **State:** Alters the behavior of an object when it’s internal state changes.
 9. **[Strategy](strategy/):** Allows a client to choose an algorithm from a family of algorithms at run-time and gives it a simple way to access it. :heavy_check_mark:
