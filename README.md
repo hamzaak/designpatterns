@@ -21,13 +21,13 @@ These patterns deal with the composition of objects structures. The concept of i
 3. **[Composite](composite/):** A tree structure of simple and composite objects :heavy_check_mark:
 4. **[Decorator](decorator/):** Add responsibilities to objects dynamically :heavy_check_mark:
 5. **[Facade](facade/):** A single class that represents an entire complex system :heavy_check_mark:
-6. **Flyweight:** Minimize memory usage by sharing as much data as possible with similar objects :soon:
+6. **[Flyweight](flyweight/):** Minimize memory usage by sharing as much data as possible with similar objects :heavy_check_mark:
 7. **[Proxy](proxy/):** Provides a surrogate object, which references to other object :heavy_check_mark:
 
 ## 3. Behavioral Design Patterns
 These patterns deal with the process of communication, managing relationships, and responsibilities between objects. There are as follows:
 1. **[Chain of Responsibility](chainofresponsibility/):** Passes a request among a list or chain of objects. :heavy_check_mark:
-2. **Command:** Wraps a request under an object as a command and passed to invoker object.
+2. **Command:** Wraps a request under an object as a command and passed to invoker object. :soon:
 3. **Interpreter:** Implements an expression interface to interpret a particular context.
 4. **[Iterator](iterator/):** Provides a way to access the elements of a collection object in sequential manner without knowing its underlying structure. :heavy_check_mark:
 5. **[Mediator](mediator/):** Allows multiple objects to communicate with each other’s without knowing each other’s structure. :heavy_check_mark:
